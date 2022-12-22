@@ -17,29 +17,31 @@ body {
     left: 0;
 }
 .header-prevent {
-    height: 40px;
+    height: 44px;
 }
 .header-web {
     width: 100%;
-    max-width: 900px;
+    max-width: 980px;
     margin:0 auto;
-    height: 40px;
+    padding: 0 8px ;
+    height: 44px;
     display: flex;
     justify-content:space-between;
     overflow: hidden;
 }
 .header-link {
-    color: #d8d8d8;
+    color: #dadada;
     text-decoration: none;
     font-family: "SF-Regular";
-    font-size: 11px;
-    letter-spacing: 0.1em;
+    font-size: 12px;
+    letter-spacing: 0.08em;
 }
 .header-link:hover {
     color: #fff;
+    transition-delay:0.05s;
 }
 .header-link p {
-    margin-top: 13px;
+    margin-top: 15px;
 }
 .overflow-hidden {
     overflow: hidden;
