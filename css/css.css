@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "SF-Thin";
+    src: url("./sf-pro-display-cufonfonts/SF-Pro-Display-Thin.otf");
+}
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    z-index: hidden;
+}
+.header {
+    background-color: rgba(0,0,0,0.8);
+    color: #f5f5f7;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.header-prevent {
+    height: 40px;
+}
+.header-web {
+    width: 100%;
+    max-width: 900px;
+    margin:0 auto;
+    height: 40px;
+    display: flex;
+    justify-content:space-between;
+    overflow: hidden;
+}
+.header-link {
+    color: #d8d8d8;
+    text-decoration: none;
+    font-family: "SF-Thin";
+    font-size: 11px;
+    letter-spacing: 0.1em;
+}
+.header-link:hover {
+    color: #fff;
+}
+.header-link p {
+    margin-top: 13px;
+}
+.overflow-hidden {
+    overflow: hidden;
+    height: 44px;
+}
+.search {
+    margin-top: -1px;
+    overflow: hidden;
+}
