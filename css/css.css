@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "SF-Thin";
+    font-family: "SF-Regular";
     src: url("./sf-pro-display-cufonfonts/SF-Pro-Display-Thin.otf");
 }
 body {
@@ -31,7 +31,7 @@ body {
 .header-link {
     color: #d8d8d8;
     text-decoration: none;
-    font-family: "SF-Thin";
+    font-family: "SF-Regular";
     font-size: 11px;
     letter-spacing: 0.1em;
 }
